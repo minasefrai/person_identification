@@ -39,10 +39,10 @@ These are the steps for preparing the data, training a classification model, and
 5. Once done, export the model by running this script `python3 onnx_export.py --model-dir=models/id`
 (If you are in the docker container, exit it by pressing `ctrl-d`)
 
-6. Change directories to `jetson-inference/python/training/classification`
-
-7. In the terminal enter in `NET=models/id` and `DATASET=data/id`
-
 ### Testing for final result
 
-* To run the program in real time using a webcam type `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt /dev/video0`
+1. Change directories to `jetson-inference/python/training/classification`
+
+2. In the terminal enter in `NET=models/id` and `DATASET=data/id`
+
+3. To run the program in real time using a webcam type `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt /dev/video0`
