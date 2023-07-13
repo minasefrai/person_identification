@@ -1,5 +1,5 @@
 # person_identification
-These are the steps for preparing the data, training a classification model, and executing the program for real-time face identification using a webcam. 
+These are the steps for preparing the data, training a classification model, and executing the program for real-time face detection using a webcam. 
 ## Setup
 Download the jetson-inference container from github to a jetson-nano: https://github.com/dusty-nv/jetson-inference
 
