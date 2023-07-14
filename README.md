@@ -26,6 +26,10 @@ These are the steps for preparing the data, training a classification model, and
 
 4. Make a new directory called `id` in `jetson-inference/python/training/classification/models`
 
+### OR
+
+* Download this dataset `git clone https://github.com/minasefrai/person_identification/tree/main/id'
+
 ## Execution
 
 1. Change directories to `jetson-inference`
