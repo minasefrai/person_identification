@@ -16,6 +16,8 @@ These are the steps for preparing the data, training a classification model, and
 
 7. Make 3 more directories called `Minas`, `Sam` and `backround` in each directory: `train`, `val`, and `test`
 
+## Dataset 
+
 ### Gathering Images
 
 1. Take around 200 photos for each person and 100 for the backround in the train directory
@@ -27,8 +29,9 @@ These are the steps for preparing the data, training a classification model, and
 4. Make a new directory called `id` in `jetson-inference/python/training/classification/models`
 
 ### OR
+1. Navigate to  `jetson-inference/python/training/classification/models`
 
-* Download this dataset `git clone https://github.com/minasefrai/person_identification/tree/main/id'
+2. Download this dataset ` git clone https://github.com/minasefrai/person_identification/tree/main/id `
 
 ## Execution
 
