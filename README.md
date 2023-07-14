@@ -46,3 +46,4 @@ These are the steps for preparing the data, training a classification model, and
 2. In the terminal enter in `NET=models/id` and `DATASET=data/id`
 
 3. To run the program in real time using a webcam type `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt /dev/video0`
+[![IMAGE ALT TEXT HERE](https://github.com/minasefrai/person_identification/blob/main/Screenshot%20(2).png)](https://youtu.be/eSeSSxMTmcw)
